@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.johntobin.topracticefinal.FindBirdActivity">
+    <TableLayout
+        android:layout_width="368dp"
+        android:layout_height="314dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/EnterZipCodeLabel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Enter Zip Code Below"
+                android:layout_marginBottom="40dip"/>
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:id="@+id/ZipLookupInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/LookupButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/ResultText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Zip Code Field is Empty"
+                android:layout_marginBottom="40dip"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

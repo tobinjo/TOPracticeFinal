@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/file"
+        android:title="Navigation">
+        <!-- "file" submenu -->
+        <menu>
+            <item
+                android:id="@+id/find_bird"
+                android:title="Find Bird Sighting" />
+            <item
+                android:id="@+id/report_bird"
+                android:title="Report Bird Sighting" />
+        </menu>
+    </item>
+</menu>
